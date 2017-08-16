@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatalogFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" RequiredVersion="7.00" xmlns="urn:Microsoft.PlatformBuilder/Catalog">
+  <FileInformation Id="FileInformation:Embedded101:AutoLaunch_v320_Compact2013">
+    <Title>AutoLaunch_v320_Compact2013</Title>
+    <Description>Autolaunch one or more application during startup.</Description>
+    <Comment>Autolaunch one or more application during startup</Comment>
+    <Vendor>Embedded101.COM</Vendor>
+    <OSVersion>8.00</OSVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </FileInformation>
+  <Item Id="AutoLaunch:Embedded101:AutoLaunch_v320_Compact2013">
+    <Title>AutoLaunch_v320_Compact2013</Title>
+    <Description>Autolaunch one or more application during startup.</Description>
+    <Comment />
+    <SysgenVariable>SYSGEN_AUTOLAUNCH</SysgenVariable>
+    <Project>$(_WINCEROOT)\3rdParty\AutoLaunch_v320_Compact2013\AutoLaunch.PBPXML</Project>
+    <Location ConditionLocation="">\Embedded101</Location>
+    <SourceCode>
+      <Title>AutoLaunch_v320_Compact2013</Title>
+      <Path>$(_WINCEROOT)\3rdParty\AutoLaunch_v320_Compact2013</Path>
+    </SourceCode>
+  </Item>
+  <Item Id="CoreCon:Embedded101:AutoLaunch_v320_Compact2013">
+    <Title>Autolaunch CoreCon</Title>
+    <Description>Add CoreCon files (Conmanclient3.exe, CMAccept3.exe &amp; etc.) to OS design, needed to establish connectivity between VS2012 IDE and target device to support application devlopment.</Description>
+    <Comment />
+    <SysgenVariable>SYSGEN_CoreCon_v320_Compact2013</SysgenVariable>
+    <Variable>BSP_AUTOLAUNCH_CORECON</Variable>
+    <Location>Embedded101\AutoLaunch_v320_Compact2013</Location>
+  </Item>
+  <Item Id="UDPIP:Embedded101:AutoLaunch_v320_Compact2013">
+    <Title>UDP IP Address Broadcast</Title>
+    <Description>Broadcast IP address via UDP during startup.  </Description>
+    <Comment>The app shutdown after broadcast.  The desktop UDP listener app must be launched prior to power on the device.  </Comment>
+    <Variable>BSP_UDP_IPAddress</Variable>
+    <Location>Embedded101\AutoLaunch_v320_Compact2013</Location>
+  </Item>
+</CatalogFile>

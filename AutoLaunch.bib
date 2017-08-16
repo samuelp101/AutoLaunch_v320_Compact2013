@@ -1,0 +1,36 @@
+;
+;  File:		AutoLaunch.bib
+;  Version:		v320
+;  Catalog name:	AutoLaunch_v320_Compact2013
+;  OS version:		Windows Embedded Compact 2013
+;  Project URL:		http://AutoLaunch4CE.Codeplex.com
+;
+;  Last updated:	May 21, 2015
+;  Updated by:		Samuel Phung
+;
+
+MODULES
+; -------------------------------------------------------------------------------
+AutoLaunch.exe  $(_FLATRELEASEDIR)\AutoLaunch.exe   NK
+
+
+
+IF BSP_AUTOLAUNCH_CORECON
+    DeviceAgentTransport3.dll 	$(_FLATRELEASEDIR)\DeviceAgentTransport3.dll    	NK
+    eDbgTL3.dll         	$(_FLATRELEASEDIR)\eDbgTL3.dll                  	NK
+    TcpConnectionA3.dll 	$(_FLATRELEASEDIR)\TcpConnectionA3.dll          	NK    
+ENDIF BSP_AUTOLAUNCH_CORECON
+
+
+FILES
+; -------------------------------------------------------------------------------
+
+IF BSP_AUTOLAUNCH_CORECON
+    clientshutdown3.exe 	$(_FLATRELEASEDIR)\clientshutdown3.exe          NK
+    CMAccept3.exe       	$(_FLATRELEASEDIR)\CMAccept3.exe                NK
+    ConmanClient3.exe  		$(_FLATRELEASEDIR)\ConmanClient3.exe            NK  
+ENDIF BSP_AUTOLAUNCH_CORECON
+
+IF BSP_UDP_IPAddress
+    IPBroadcastCompact2013.exe       	$(_FLATRELEASEDIR)\IPBroadcastCompact2013.exe                NK
+ENDIF BSP_UDP_IPAddress

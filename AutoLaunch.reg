@@ -1,0 +1,56 @@
+;
+;  File:		AutoLaunch.REG
+;  Version:		v320
+;  Catalog name:	AutoLaunch_v320_Compact2013
+;  OS version:		Windows Embedded Compact 2013
+;  Project URL:		http://AutoLaunch4CE.Codeplex.com
+;
+;  Last updated:	May 21, 2015
+;  Updated by:		Samuel Phung
+;
+
+[HKEY_LOCAL_MACHINE\Init]
+    "Depend99"=hex:14,00,1e,00,32,00
+	"Launch99"="AutoLaunch.exe"
+
+; AutoLaunch CoreCon
+;
+IF BSP_AUTOLAUNCH_CORECON
+    [HKEY_LOCAL_MACHINE\System] 
+        "CoreConOverrideSecurity"=dword:1
+	;
+    [HKEY_LOCAL_MACHINE\Startup]
+        "Process0"="ConmanClient3.exe"
+        "Process0Delay"=dword:00001388 
+ENDIF BSP_AUTOLAUNCH_CORECON 
+
+
+IF BSP_UDP_IPAddress
+    [HKEY_LOCAL_MACHINE\Startup]
+        "Process1"="IPBroadcastCompact2013.exe"
+        "Process1Delay"=dword:00002710 
+ENDIF BSP_UDP_IPAddress
+
+;
+; The process delay value for each sample entry is randomly selected.
+;   1388H = 5000, representing 5000ms or 5 seconds
+;   2710H = 10000, representing 10000ms or 10 seconds
+;   3A98H = 15000, representing 15000ms or 15 seconds  
+
+
+; Since Process0 and Process1 are used to launch CoreCon and Cerdisp
+; Use Process2,Process3 and so on to launch your application
+;
+; Here are sample registry entries to launch additional application
+; 
+; Note:  Do not add/modify registry in this file, 
+;        which impact other OS design project using this component.
+;
+;        It's best to add these registry to the OSDesign.reg file.
+;
+;    [HKEY_LOCAL_MACHINE\Startup]	
+;        "Process2"="App1.EXE"
+;        "Process2Delay"=dword:00002710
+;
+;        "Process3"="App2.EXE"
+;        "Process3Delay"=dword:00002710

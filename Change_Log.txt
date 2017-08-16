@@ -1,0 +1,43 @@
+Date:		January 21, 2015
+Version:	AutoLaunch_v320_Compact2013
+
+  *  The "Compact2013UDPClien.exe" utility is renamed to "IPBroadcastCompact2013.exe" 
+  *  The "Compact2013_Desktop_UDP_Listener.exe" utility for desktop renamed to "IPAddressDiscovery.exe"
+
+  *  When included in an OS design, the IPBroadcastCompact2013.exe is configured to launch during startup, broadcast the device's IP address via UDP 5 times, with 2 seconds delay between each broadcast.
+
+
+----------------------------------------------------------------
+Date:		October 28, 2014
+Version:	AutoLaunch_v310_Compact2013
+  *  In this release, an additional item is added, "Compact2013UDPClient.exe"
+  *  When included in an OS design, the Compact2013UDPClient.exe is configured to 
+     launch during startup (with 10 seconds delay), to broadcast the device's IP address
+     via UDP and then shutdown.
+  *  The Compact2013UDPClient.exe is written in managed code and requires .NET Compact Framework
+     to be included in the OS design.
+  *  The Compact2013UDPCLient.exe is intended for headless device to provide a mechanism to capture 
+     the device's IP address, needed to connect to the device to support application development.
+  *  Prior to power-on the device, the desktop UDP listener  must be launched on the development PC 
+     to wait and listen for the UDP broadcast from Compact2013UDPClient.exe.
+     The desktop UDP listener (Compact2013_Desktop_UDP_Listener.exe) is in the "\Desktop UDP Listner" folder
+
+Note:  
+Both Compact2013UDPClient.exe and Compact2013_Desktop_UDP_Listener.exe are simple managed code console application,
+written in C#.  Source codes are available for download from:
+  http://www.embedded101.com/Blogs/SamuelPhung.aspx 
+
+
+----------------------------------------------------------------
+Date:		June 13, 2013
+Version:	AutoLaunch_v300_Compact2013
+
+  *  This is the first release for Windows Embedded Compact 2013. 
+
+  *  This version is updated from AutoLaunch_v300_Compact7, with "Remote Display application" removed.
+
+Note:  The "Remote Display application" component is not part of the current Compact 2013 release.   
+
+
+
+

@@ -1,0 +1,3 @@
+BUILD: [Thread:SystemTickCount:Type  ] Message
+BUILD: [01:0000001234:WARNN ] c:\wince800\3rdparty\autolaunch_v320_compact2013\autolaunch.cpp(101) : warning C4101: 'dwTemp' : unreferenced local variable
+BUILD: [01:0000001250:WARNN ] c:\wince800\3rdparty\autolaunch_v320_compact2013\autolaunch.cpp(173) : warning C4101: 'ptrCmdLine' : unreferenced local variable

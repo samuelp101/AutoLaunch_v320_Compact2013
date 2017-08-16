@@ -1,0 +1,295 @@
+ AutoLaunch
+
+ Timestamp is 53ac68d5 (Thu Jun 26 11:39:17 2014)
+
+ Preferred load address is 00010000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .CRT$XCA                CODE
+ 0001:00000004 00000004H .CRT$XCZ                CODE
+ 0001:00000008 00000004H .CRT$XIA                CODE
+ 0001:0000000c 00000004H .CRT$XIZ                CODE
+ 0001:00000010 00000004H .CRT$XPA                CODE
+ 0001:00000014 00000004H .CRT$XPZ                CODE
+ 0001:00000018 00000004H .CRT$XTA                CODE
+ 0001:0000001c 00000004H .CRT$XTZ                CODE
+ 0001:00000020 00000b18H .rdata                  CODE
+ 0001:00000b38 00000038H .rdata$debug            CODE
+ 0001:00000b70 00000004H .rdata$sxdata           CODE
+ 0001:00000b74 00000e80H .text                   CODE
+ 0001:000019f8 0000005cH .xdata$x                CODE
+ 0001:00001a54 0000003cH .idata$2                CODE
+ 0001:00001a90 00000014H .idata$3                CODE
+ 0001:00001aa4 000000b0H .idata$4                CODE
+ 0001:00001b54 0000005aH .idata$6                CODE
+ 0001:00001bae 00000000H .edata                  CODE
+ 0002:00000000 000000b0H .idata$5                DATA
+ 0002:000000b0 00000258H .data                   DATA
+ 0002:00000308 0000005cH .bss                    DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0001:00000000       ___xc_a                    00011000     ccrt0:crt0init.obj
+ 0001:00000004       ___xc_z                    00011004     ccrt0:crt0init.obj
+ 0001:00000008       ___xi_a                    00011008     ccrt0:crt0init.obj
+ 0001:0000000c       ___xi_z                    0001100c     ccrt0:crt0init.obj
+ 0001:00000010       ___xp_a                    00011010     ccrt0:crt0init.obj
+ 0001:00000014       ___xp_z                    00011014     ccrt0:crt0init.obj
+ 0001:00000018       ___xt_a                    00011018     ccrt0:crt0init.obj
+ 0001:0000001c       ___xt_z                    0001101c     ccrt0:crt0init.obj
+ 0001:00000058       ??_C@_1BA@FIJHCCCE@?$AAS?$AAt?$AAa?$AAr?$AAt?$AAu?$AAp?$AA?$AA@ 00011058     AutoLaunch.obj
+ 0001:00000068       ??_C@_1BA@NMDNJJOO@?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?$AA@ 00011068     AutoLaunch.obj
+ 0001:00000078       ??_C@_1BA@LOFMEBPJ@?$AA?$CF?$AAs?$AAD?$AAe?$AAl?$AAa?$AAy?$AA?$AA@ 00011078     AutoLaunch.obj
+ 0001:00000088       ??_C@_1DG@CKOLCFDI@?$AAS?$AAp?$AAa?$AAw?$AAn?$AAi?$AAn?$AAg?$AA?5?$AAl?$AAa?$AAu?$AAn?$AAc?$AAh?$AA?5?$AAT?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?4?$AA?4?$AA?4?$AA?6?$AA?$AA@ 00011088     AutoLaunch.obj
+ 0001:000000c0       ??_C@_1BM@GLMECPFJ@?$AAW?$AAa?$AAi?$AAt?$AA?5?$AAF?$AAa?$AAi?$AAl?$AAe?$AAd?$AA?$CB?$AA?6?$AA?$AA@ 000110c0     AutoLaunch.obj
+ 0001:000000dc       ??_C@_1CE@DAPDNHDA@?$AAC?$AAr?$AAe?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAP?$AAr?$AAo?$AAc?$AAe?$AAs?$AAs?$AA?5?$AA?$AA@ 000110dc     AutoLaunch.obj
+ 0001:00000100       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 00011100     ccrt0:mainwcrt.obj
+ 0001:00000104       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 00011104     ccrt0:mainwcrt.obj
+ 0001:00000108       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 00011108     ccrt0:mainwcrt.obj
+ 0001:0000010c       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 0001110c     ccrt0:mainwcrt.obj
+ 0001:00000110       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 00011110     ccrt0:mainwcrt.obj
+ 0001:00000114       ??_C@_1DI@FDBNHCD@?$AAI?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAa?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$CI?$AA?$CF?$AAd?$AA?$CJ?$AA?$AN?$AA?6?$AA?$AA@ 00011114     ccrt0:mainwcrt.obj
+ 0001:00000208       ??_C@_1FK@PGACCAFB@?$AAR?$AA6?$AA0?$AA0?$AA2?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAf?$AAl?$AAo?$AAa?$AAt?$AAi?$AAn?$AAg?$AA?5?$AAp?$AAo?$AAi?$AAn?$AAt?$AA?5?$AAs?$AAu?$AAp?$AAp?$AAo?$AAr?$AAt?$AA?5@ 00011208     ccrt0:crt0msg.obj
+ 0001:00000268       ??_C@_1FE@LLNEDJMD@?$AAR?$AA6?$AA0?$AA0?$AA8?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAe?$AAn?$AAo?$AAu?$AAg?$AAh?$AA?5?$AAs?$AAp?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAa?$AAr@ 00011268     ccrt0:crt0msg.obj
+ 0001:000002c0       ??_C@_1FI@HONFMGBI@?$AAR?$AA6?$AA0?$AA0?$AA9?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAe?$AAn?$AAo?$AAu?$AAg?$AAh?$AA?5?$AAs?$AAp?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAe?$AAn@ 000112c0     ccrt0:crt0msg.obj
+ 0001:00000318       ??_C@_1EG@BEHAGFJD@?$AAR?$AA6?$AA0?$AA1?$AA0?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAa?$AAb?$AAo?$AAr?$AAt?$AA?$CI?$AA?$CJ?$AA?5?$AAh?$AAa?$AAs?$AA?5?$AAb?$AAe?$AAe?$AAn?$AA?5?$AAc?$AAa?$AAl?$AAl?$AAe?$AAd@ 00011318     ccrt0:crt0msg.obj
+ 0001:00000360       ??_C@_1FI@LOGNIKDM@?$AAR?$AA6?$AA0?$AA1?$AA6?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAe?$AAn?$AAo?$AAu?$AAg?$AAh?$AA?5?$AAs?$AAp?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAt?$AAh@ 00011360     ccrt0:crt0msg.obj
+ 0001:000003b8       ??_C@_1FK@BEOGODMC@?$AAR?$AA6?$AA0?$AA1?$AA7?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAu?$AAn?$AAe?$AAx?$AAp?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?5?$AAm?$AAu?$AAl?$AAt?$AAi?$AAt?$AAh?$AAr?$AAe?$AAa?$AAd?$AA?5@ 000113b8     ccrt0:crt0msg.obj
+ 0001:00000418       ??_C@_1EC@JIBHAOPH@?$AAR?$AA6?$AA0?$AA1?$AA8?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAu?$AAn?$AAe?$AAx?$AAp?$AAe?$AAc?$AAt?$AAe?$AAd?$AA?5?$AAh?$AAe?$AAa?$AAp?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AN?$AA?6@ 00011418     ccrt0:crt0msg.obj
+ 0001:00000460       ??_C@_1FC@ECHBIFBC@?$AAR?$AA6?$AA0?$AA1?$AA9?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAu?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAo?$AAp?$AAe?$AAn?$AA?5?$AAc?$AAo?$AAn?$AAs?$AAo?$AAl?$AAe?$AA?5@ 00011460     ccrt0:crt0msg.obj
+ 0001:000004b8       ??_C@_1GK@FHCKBEFA@?$AAR?$AA6?$AA0?$AA2?$AA4?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAe?$AAn?$AAo?$AAu?$AAg?$AAh?$AA?5?$AAs?$AAp?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AA_?$AAo@ 000114b8     ccrt0:crt0msg.obj
+ 0001:00000528       ??_C@_1EM@MAADIHMB@?$AAR?$AA6?$AA0?$AA2?$AA5?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAp?$AAu?$AAr?$AAe?$AA?5?$AAv?$AAi?$AAr?$AAt?$AAu?$AAa?$AAl?$AA?5?$AAf?$AAu?$AAn?$AAc?$AAt?$AAi?$AAo?$AAn?$AA?5?$AAc@ 00011528     ccrt0:crt0msg.obj
+ 0001:00000578       ??_C@_1GK@MCAAGJMO@?$AAR?$AA6?$AA0?$AA2?$AA6?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAe?$AAn?$AAo?$AAu?$AAg?$AAh?$AA?5?$AAs?$AAp?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAs?$AAt@ 00011578     ccrt0:crt0msg.obj
+ 0001:000005e8       ??_C@_1GK@MFGOKLAG@?$AAR?$AA6?$AA0?$AA2?$AA7?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAe?$AAn?$AAo?$AAu?$AAg?$AAh?$AA?5?$AAs?$AAp?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAl?$AAo@ 000115e8     ccrt0:crt0msg.obj
+ 0001:00000658       ??_C@_1EK@HHFLMAOL@?$AAR?$AA6?$AA0?$AA2?$AA8?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAu?$AAn?$AAa?$AAb?$AAl?$AAe?$AA?5?$AAt?$AAo?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAh?$AAe@ 00011658     ccrt0:crt0msg.obj
+ 0001:000006a4       ??_C@_1DO@BMFCDCD@?$AAR?$AA6?$AA0?$AA3?$AA0?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAC?$AAR?$AAT?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AAd?$AA?$AN?$AA?6?$AA?$AA@ 000116a4     ccrt0:crt0msg.obj
+ 0001:000006e8       ??_C@_1MG@ENCOOIDF@?$AAR?$AA6?$AA0?$AA3?$AA1?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAA?$AAt?$AAt?$AAe?$AAm?$AAp?$AAt?$AA?5?$AAt?$AAo?$AA?5?$AAi?$AAn?$AAi?$AAt?$AAi?$AAa?$AAl?$AAi?$AAz?$AAe?$AA?5?$AAt@ 000116e8     ccrt0:crt0msg.obj
+ 0001:000007b0       ??_C@_1GG@GOPILAJP@?$AAR?$AA6?$AA0?$AA3?$AA2?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAe?$AAn?$AAo?$AAu?$AAg?$AAh?$AA?5?$AAs?$AAp?$AAa?$AAc?$AAe?$AA?5?$AAf?$AAo?$AAr?$AA?5?$AAl?$AAo@ 000117b0     ccrt0:crt0msg.obj
+ 0001:00000818       ??_C@_1BOO@KGEDBGAJ@?$AAR?$AA6?$AA0?$AA3?$AA3?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAA?$AAt?$AAt?$AAe?$AAm?$AAp?$AAt?$AA?5?$AAt?$AAo?$AA?5?$AAu?$AAs?$AAe?$AA?5?$AAM?$AAS?$AAI?$AAL?$AA?5?$AAc?$AAo?$AAd@ 00011818     ccrt0:crt0msg.obj
+ 0001:00000a08       ??_C@_1GG@MKFPEKFO@?$AAR?$AA6?$AA0?$AA3?$AA4?$AA?$AN?$AA?6?$AA?9?$AA?5?$AAi?$AAn?$AAc?$AAo?$AAn?$AAs?$AAi?$AAs?$AAt?$AAe?$AAn?$AAt?$AA?5?$AAo?$AAn?$AAe?$AAx?$AAi?$AAt?$AA?5?$AAb?$AAe?$AAg@ 00011a08     ccrt0:crt0msg.obj
+ 0001:00000a70       ??_C@_1BO@BFCDCGC@?$AAD?$AAO?$AAM?$AAA?$AAI?$AAN?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AN?$AA?6?$AA?$AA@ 00011a70     ccrt0:crt0msg.obj
+ 0001:00000a90       ??_C@_1BK@KMOMNAAI@?$AAS?$AAI?$AAN?$AAG?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AN?$AA?6?$AA?$AA@ 00011a90     ccrt0:crt0msg.obj
+ 0001:00000aac       ??_C@_1BM@JBBEPPHI@?$AAT?$AAL?$AAO?$AAS?$AAS?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?$AN?$AA?6?$AA?$AA@ 00011aac     ccrt0:crt0msg.obj
+ 0001:00000ac8       ??_C@_15JNBOKNOG@?$AA?$AN?$AA?6?$AA?$AA@ 00011ac8     ccrt0:crt0msg.obj
+ 0001:00000ad0       ??_C@_1BO@BKOMIGKJ@?$AAr?$AAu?$AAn?$AAt?$AAi?$AAm?$AAe?$AA?5?$AAe?$AAr?$AAr?$AAo?$AAr?$AA?5?$AA?$AA@ 00011ad0     ccrt0:crt0msg.obj
+ 0001:00000af0       __load_config_used         00011af0     ccrt0:loadcfg.obj
+ 0001:00000b70       ___safe_se_handler_table   00011b70     <linker-defined>
+ 0001:00000c05       ?WalkStartupKey@@YAXXZ     00011c05 f   AutoLaunch.obj
+ 0001:00000e2e       ?ProcessThread@@YAKPAX@Z   00011e2e f   AutoLaunch.obj
+ 0001:00000f67       _wmain                     00011f67 f   AutoLaunch.obj
+ 0001:00000f90       ?wcsrchr@@YAPAGPAGG@Z      00011f90 f i AutoLaunch.obj
+ 0001:00000f99       _lstrlenW                  00011f99 f i AutoLaunch.obj
+ 0001:00000fc2       _wsprintfW                 00011fc2 f   coredll:COREDLL.dll
+ 0001:00000fc8       _OutputDebugStringW        00011fc8 f   coredll:COREDLL.dll
+ 0001:00000fce       _CreateThread              00011fce f   coredll:COREDLL.dll
+ 0001:00000fd4       _CreateProcessW            00011fd4 f   coredll:COREDLL.dll
+ 0001:00000fda       _CloseHandle               00011fda f   coredll:COREDLL.dll
+ 0001:00000fe0       _Sleep                     00011fe0 f   coredll:COREDLL.dll
+ 0001:00000fe6       _WaitForSingleObject       00011fe6 f   coredll:COREDLL.dll
+ 0001:00000fec       _RegCloseKey               00011fec f   coredll:COREDLL.dll
+ 0001:00000ff2       _RegEnumValueW             00011ff2 f   coredll:COREDLL.dll
+ 0001:00000ff8       _RegOpenKeyExW             00011ff8 f   coredll:COREDLL.dll
+ 0001:00000ffe       _RegQueryValueExW          00011ffe f   coredll:COREDLL.dll
+ 0001:00001004       _WaitForAPIReady           00012004 f   coredll:COREDLL.dll
+ 0001:0000100a       _gethostbyname             0001200a f   ws2:WS2.dll
+ 0001:00001010       _gethostname               00012010 f   ws2:WS2.dll
+ 0001:00001016       _WSAStartup                00012016 f   ws2:WS2.dll
+ 0001:0000101c       _WSACleanup                0001201c f   ws2:WS2.dll
+ 0001:00001022       _mainWCRTStartup           00012022 f   ccrt0:mainwcrt.obj
+ 0001:00001349       ___report_rangecheckfailure 00012349 f   ccrt0:x86secgs.obj
+ 0001:00001355       @__security_check_cookie@4 00012355 f   ccrt0:x86secgs.obj
+ 0001:0000137b       ___security_init_cookie    0001237b f   ccrt0:seccinit.obj
+ 0001:000013a7       _atexit                    000123a7 f   ccrt0:onexit.obj
+ 0001:000013bc       __onexit                   000123bc f   ccrt0:onexit.obj
+ 0001:000014b4       __get_pgmptr               000124b4 f   ccrt0:crt0dat.obj
+ 0001:000014e3       __get_wpgmptr              000124e3 f   ccrt0:crt0dat.obj
+ 0001:00001512       _exit                      00012512 f   ccrt0:crt0dat.obj
+ 0001:00001526       __exit                     00012526 f   ccrt0:crt0dat.obj
+ 0001:0000153a       __lockexit                 0001253a f   ccrt0:crt0dat.obj
+ 0001:00001543       __unlockexit               00012543 f   ccrt0:crt0dat.obj
+ 0001:0000154c       __amsg_exit                0001254c f   ccrt0:crt0dat.obj
+ 0001:00001568       __cinit                    00012568 f   ccrt0:crt0dat.obj
+ 0001:000015bd       ___freeCrtMemory           000125bd f   ccrt0:crt0dat.obj
+ 0001:000016b4       __init_pointers            000126b4 f   ccrt0:crt0dat.obj
+ 0001:000016cd       __cexit                    000126cd f   ccrt0:crt0dat.obj
+ 0001:000016dc       __c_exit                   000126dc f   ccrt0:crt0dat.obj
+ 0001:00001707       __initterm_e               00012707 f   ccrt0:crt0dat.obj
+ 0001:00001824       __SEH_prolog4_GS           00012824 f   ccrt0:sehprolg4gs.obj
+ 0001:0000186c       __SEH_epilog4_GS           0001286c f   ccrt0:sehprolg4gs.obj
+ 0001:0000187b       __except_handler4          0001287b f   ccrt0:chandler4gs.obj
+ 0001:000018a0       __SEH_prolog4              000128a0 f   ccrt0:sehprolg4.obj
+ 0001:000018e5       __SEH_epilog4              000128e5 f   ccrt0:sehprolg4.obj
+ 0001:000018f9       ___crt_ExitProcess         000128f9 f   ccrt0:exitproc_proxy.obj
+ 0001:0000190b       _GetCurrentProcess         0001290b f i ccrt0:exitproc_proxy.obj
+ 0001:0000190f       __FF_MSGBANNER             0001290f f   ccrt0:crt0msg.obj
+ 0001:00001925       __GET_RTERRMSG             00012925 f   ccrt0:crt0msg.obj
+ 0001:00001949       __NMSG_WRITE               00012949 f   ccrt0:crt0msg.obj
+ 0001:0000194a       __initp_misc_cfltcvt_tab   0001294a f   ccrt0:cmiscdat.obj
+ 0001:00001955       __fptrap                   00012955 f   ccrt0:crt0fp.obj
+ 0001:0000195e       ??2@YAPAXI@Z               0001295e f   msvcrt:MSVCRT.dll
+ 0001:00001964       _wcsncmp                   00012964 f   msvcrt:MSVCRT.dll
+ 0001:0000196a       _wcsrchr                   0001296a f   msvcrt:MSVCRT.dll
+ 0001:00001970       _iswctype                  00012970 f   msvcrt:MSVCRT.dll
+ 0001:00001976       __XcptFilter               00012976 f   msvcrt:MSVCRT.dll
+ 0001:0000197c       _free                      0001297c f   msvcrt:MSVCRT.dll
+ 0001:00001982       _malloc                    00012982 f   msvcrt:MSVCRT.dll
+ 0001:00001988       _memcpy                    00012988 f   msvcrt:MSVCRT.dll
+ 0001:0000198e       ___report_gsfailure        0001298e f   msvcrt:MSVCRT.dll
+ 0001:00001994       ___security_gen_cookie2    00012994 f   msvcrt:MSVCRT.dll
+ 0001:0000199a       _realloc                   0001299a f   msvcrt:MSVCRT.dll
+ 0001:000019a0       __lock                     000129a0 f   msvcrt:MSVCRT.dll
+ 0001:000019a6       __unlock                   000129a6 f   msvcrt:MSVCRT.dll
+ 0001:000019ac       __msize                    000129ac f   msvcrt:MSVCRT.dll
+ 0001:000019b2       __invalid_parameter_noinfo 000129b2 f   msvcrt:MSVCRT.dll
+ 0001:000019b8       __errno                    000129b8 f   msvcrt:MSVCRT.dll
+ 0001:000019be       __initp_heap_handler       000129be f   msvcrt:MSVCRT.dll
+ 0001:000019c4       __initp_misc_invarg        000129c4 f   msvcrt:MSVCRT.dll
+ 0001:000019ca       __initp_misc_purevirt      000129ca f   msvcrt:MSVCRT.dll
+ 0001:000019d0       __except_handler4_common   000129d0 f   msvcrt:MSVCRT.dll
+ 0001:000019d6       __set_error_mode           000129d6 f   msvcrt:MSVCRT.dll
+ 0001:000019dc       _GetModuleFileNameW        000129dc f   coredll:COREDLL.dll
+ 0001:000019e2       _GetLastError              000129e2 f   coredll:COREDLL.dll
+ 0001:000019e8       _NKDbgPrintfW              000129e8 f   coredll:COREDLL.dll
+ 0001:000019ee       _TerminateProcess          000129ee f   coredll:COREDLL.dll
+ 0001:00001a54       __IMPORT_DESCRIPTOR_COREDLL 00012a54     coredll:COREDLL.dll
+ 0001:00001a68       __IMPORT_DESCRIPTOR_WS2    00012a68     ws2:WS2.dll
+ 0001:00001a7c       __IMPORT_DESCRIPTOR_MSVCRT 00012a7c     msvcrt:MSVCRT.dll
+ 0001:00001a90       __NULL_IMPORT_DESCRIPTOR   00012a90     coredll:COREDLL.dll
+ 0002:00000000       __imp__wsprintfW           00013000     coredll:COREDLL.dll
+ 0002:00000004       __imp__OutputDebugStringW  00013004     coredll:COREDLL.dll
+ 0002:00000008       __imp__CreateThread        00013008     coredll:COREDLL.dll
+ 0002:0000000c       __imp__CreateProcessW      0001300c     coredll:COREDLL.dll
+ 0002:00000010       __imp__CloseHandle         00013010     coredll:COREDLL.dll
+ 0002:00000014       __imp__Sleep               00013014     coredll:COREDLL.dll
+ 0002:00000018       __imp__WaitForSingleObject 00013018     coredll:COREDLL.dll
+ 0002:0000001c       __imp__RegCloseKey         0001301c     coredll:COREDLL.dll
+ 0002:00000020       __imp__RegEnumValueW       00013020     coredll:COREDLL.dll
+ 0002:00000024       __imp__RegOpenKeyExW       00013024     coredll:COREDLL.dll
+ 0002:00000028       __imp__RegQueryValueExW    00013028     coredll:COREDLL.dll
+ 0002:0000002c       __imp__WaitForAPIReady     0001302c     coredll:COREDLL.dll
+ 0002:00000030       __imp__NKDbgPrintfW        00013030     coredll:COREDLL.dll
+ 0002:00000034       __imp__GetLastError        00013034     coredll:COREDLL.dll
+ 0002:00000038       __imp__GetModuleFileNameW  00013038     coredll:COREDLL.dll
+ 0002:0000003c       __imp__TerminateProcess    0001303c     coredll:COREDLL.dll
+ 0002:00000040       \177COREDLL_NULL_THUNK_DATA 00013040     coredll:COREDLL.dll
+ 0002:00000044       __imp___unlock             00013044     msvcrt:MSVCRT.dll
+ 0002:00000048       __imp_??2@YAPAXI@Z         00013048     msvcrt:MSVCRT.dll
+ 0002:0000004c       __imp__wcsncmp             0001304c     msvcrt:MSVCRT.dll
+ 0002:00000050       __imp__wcsrchr             00013050     msvcrt:MSVCRT.dll
+ 0002:00000054       __imp__iswctype            00013054     msvcrt:MSVCRT.dll
+ 0002:00000058       __imp__free                00013058     msvcrt:MSVCRT.dll
+ 0002:0000005c       __imp__malloc              0001305c     msvcrt:MSVCRT.dll
+ 0002:00000060       __imp__memcpy              00013060     msvcrt:MSVCRT.dll
+ 0002:00000064       __imp____report_gsfailure  00013064     msvcrt:MSVCRT.dll
+ 0002:00000068       __imp____security_gen_cookie2 00013068     msvcrt:MSVCRT.dll
+ 0002:0000006c       __imp__realloc             0001306c     msvcrt:MSVCRT.dll
+ 0002:00000070       __imp___lock               00013070     msvcrt:MSVCRT.dll
+ 0002:00000074       __imp___XcptFilter         00013074     msvcrt:MSVCRT.dll
+ 0002:00000078       __imp___msize              00013078     msvcrt:MSVCRT.dll
+ 0002:0000007c       __imp___invalid_parameter_noinfo 0001307c     msvcrt:MSVCRT.dll
+ 0002:00000080       __imp___errno              00013080     msvcrt:MSVCRT.dll
+ 0002:00000084       __imp___initp_heap_handler 00013084     msvcrt:MSVCRT.dll
+ 0002:00000088       __imp___initp_misc_invarg  00013088     msvcrt:MSVCRT.dll
+ 0002:0000008c       __imp___initp_misc_purevirt 0001308c     msvcrt:MSVCRT.dll
+ 0002:00000090       __imp___except_handler4_common 00013090     msvcrt:MSVCRT.dll
+ 0002:00000094       __imp___set_error_mode     00013094     msvcrt:MSVCRT.dll
+ 0002:00000098       \177MSVCRT_NULL_THUNK_DATA 00013098     msvcrt:MSVCRT.dll
+ 0002:0000009c       __imp__WSAStartup          0001309c     ws2:WS2.dll
+ 0002:000000a0       __imp__gethostname         000130a0     ws2:WS2.dll
+ 0002:000000a4       __imp__gethostbyname       000130a4     ws2:WS2.dll
+ 0002:000000a8       __imp__WSACleanup          000130a8     ws2:WS2.dll
+ 0002:000000ac       \177WS2_NULL_THUNK_DATA    000130ac     ws2:WS2.dll
+ 0002:000000b0       ___security_cookie         000130b0     ccrt0:seccinit.obj
+ 0002:000000b4       ___security_cookie_complement 000130b4     ccrt0:seccinit.obj
+ 0002:000000b8       ___ptmbcinfo               000130b8     ccrt0:cmiscdat.obj
+ 0002:000000bc       __cfltcvt_tab              000130bc     ccrt0:cmiscdat.obj
+ 0002:000000e8       ___initialmbcinfo          000130e8     ccrt0:cmiscdat.obj
+ 0002:00000308       ___@@_PchSym_@00@UdrmxvIAAUDiwkzigbUzfglozfmxsPeDAAPxlnkzxgCABDUlyqUcIGUxsvxpvwUhgwzucOlyq@AutoLaunch 00013308     StdAfx.obj
+ 0002:00000310       ___argc                    00013310     ccrt0:crt0dat.obj
+ 0002:00000314       ___argv                    00013314     ccrt0:crt0dat.obj
+ 0002:00000318       ___wargv                   00013318     ccrt0:crt0dat.obj
+ 0002:0000031c       __environ                  0001331c     ccrt0:crt0dat.obj
+ 0002:00000320       __wenviron                 00013320     ccrt0:crt0dat.obj
+ 0002:00000324       __pgmptr                   00013324     ccrt0:crt0dat.obj
+ 0002:00000328       __wpgmptr                  00013328     ccrt0:crt0dat.obj
+ 0002:0000032c       __C_Exit_Done              0001332c     ccrt0:crt0dat.obj
+ 0002:00000330       __umaskval                 00013330     ccrt0:crt0dat.obj
+ 0002:00000334       __exitflag                 00013334     ccrt0:crt0dat.obj
+ 0002:00000338       __C_Termination_Done       00013338     ccrt0:crt0dat.obj
+ 0002:0000033c       ___winitenv                0001333c     ccrt0:crt0dat.obj
+ 0002:00000340       ___initenv                 00013340     ccrt0:crt0dat.obj
+ 0002:00000344       ___app_type                00013344     ccrt0:crt0msg.obj
+ 0002:00000348       __stdbuf                   00013348     ccrt0:cmiscdat.obj
+ 0002:00000350       ___dyn_tls_init_callback   00013350     <common>
+ 0002:00000354       __FPinit                   00013354     <common>
+ 0002:00000358       ___env_initialized         00013358     <common>
+ 0002:0000035c       ___onexitend               0001335c     <common>
+ 0002:00000360       ___onexitbegin             00013360     <common>
+
+ entry point at        0001:00001022
+
+ Static symbols
+
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     coredll:COREDLL.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     ws2:WS2.dll
+ 0000:ffffb000       .debug$S                   00010000     ws2:WS2.dll
+ 0000:ffffb000       .debug$S                   00010000     ws2:WS2.dll
+ 0000:ffffb000       .debug$S                   00010000     ws2:WS2.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0000:ffffb000       .debug$S                   00010000     msvcrt:MSVCRT.dll
+ 0001:00000150       _rterrs                    00011150     ccrt0:crt0msg.obj
+ 0001:00000b74       ?IsNetworkReady@@YAHXZ     00011b74 f   AutoLaunch.obj
+ 0001:00001036       ?crtstart_FreeArguments@@YAXXZ 00012036 f   ccrt0:mainwcrt.obj
+ 0001:00001047       ?crtstart_SkipWhiteW@@YAHPBG@Z 00012047 f   ccrt0:mainwcrt.obj
+ 0001:00001076       ?crtstart_SkipNonWhiteQuotesW@@YAHPBG@Z 00012076 f   ccrt0:mainwcrt.obj
+ 0001:000010b8       ?crtstart_RemoveQuotesW@@YAXPAG@Z 000120b8 f   ccrt0:mainwcrt.obj
+ 0001:000010e0       ?crtstart_CountSpaceW@@YAXAAH0PBG@Z 000120e0 f   ccrt0:mainwcrt.obj
+ 0001:0000112c       ?crtstart_ParseArgsWW@@YAHPBG0AAHAAPAPAG@Z 0001212c f   ccrt0:mainwcrt.obj
+ 0001:00001254       ?mainCRTStartupHelper@@YAXPAUHINSTANCE__@@PBG@Z 00012254 f   ccrt0:mainwcrt.obj
+ 0001:00001402       _lockexit                  00012402 f   ccrt0:onexit.obj
+ 0001:0000140b       _unlockexit                0001240b f   ccrt0:onexit.obj
+ 0001:00001414       __onexit_nolock            00012414 f   ccrt0:onexit.obj
+ 0001:000016eb       __initterm                 000126eb f   ccrt0:crt0dat.obj
+ 0001:00001729       _doexit                    00012729 f   ccrt0:crt0dat.obj
+ 0001:000019f8       __sehtable$?mainCRTStartupHelper@@YAXPAUHINSTANCE__@@PBG@Z 000129f8     ccrt0:mainwcrt.obj
+ 0001:00001a18       __sehtable$__onexit        00012a18     ccrt0:onexit.obj
+ 0001:00001a38       __sehtable$_doexit         00012a38     ccrt0:crt0dat.obj
+ 0001:00001b54       .idata$6                   00012b54     coredll:COREDLL.dll
+ 0001:00001b9a       .idata$6                   00012b9a     ws2:WS2.dll
+ 0001:00001ba2       .idata$6                   00012ba2     msvcrt:MSVCRT.dll
+ 0002:0000030c       _hInstGlobal               0001330c     ccrt0:mainwcrt.obj

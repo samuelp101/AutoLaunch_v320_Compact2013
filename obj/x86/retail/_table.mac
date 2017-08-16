@@ -1,0 +1,413 @@
+EnvHash:
+e5568efdeb5fc2e8b7c2ded17e238343
+EnvVars:
+ADEFINES
+ASM_ARCH_CMD_LINE
+CDEBUG_DEFINES
+CDECLDECORATION
+CODEPAGE
+CODE_ANALYSIS_CMD_LINE
+C_ARCH_CMD_LINE
+ERRORFORBANNEDAPIS_CMD_LINE
+EXCEPTION_CPP_CMD_LINE
+EXCEPTION_EXTERN_C_CMD_LINE
+EXEENTRY
+HEADEROBJNAME
+LDEFSTACK
+LIBRARIAN_FLAGS
+LOCALE
+MAKEDIR
+OBJECTS
+OPTIMIZE_FAVOR_FLAG
+PASS0_SOURCEDIR
+PRECOMPILED_C_ONLY_CMD_LINE
+PRECOMPILED_INCLUDE
+PRECOMPILED_OBJ
+PRECOMPILED_PCH
+RTTI_CMD_LINE
+SG_OUTPUT_ROOT
+SOURCES
+TARGETNAME
+WARNLEVEL_CMD_LINE
+WINCEDEBUG
+_DOTNETSDKROOT
+_TGTCPU
+_TGTCPUDEFINES
+_TGTCPUFAMILY
+_WINCEROOT
+Includes:
+C:\WINCE800\public\common\oak\misc\makefile.def
+C:\WINCE800\public\common\oak\misc\Sources.default
+C:\wince800\3rdparty\autolaunch_v320_compact2013\sources
+C:\WINCE800\public\common\oak\misc\Sources.CE
+C:\WINCE800\public\common\oak\misc\sources.ReleaseType_LOCAL
+Macros:
+ACF_SOURCES = AutoLaunch.cpp
+ADDLIB_SOURCES = 
+AFLAGS =  -c -coff -Cx -Zm -I. -IC:\WINCE800\public\common\oak\inc -IC:\WINCE800\public\common\sdk\inc -IC:\WINCE800\public\common\sdk\inc\cestl -IC:\WINCE800\public\common\sdk\inc\crt -I.\Resource\0409 
+ALLOW_BITFIELD_NON_INT = 1
+ALLOW_GTR_64KB_SOURCE = 1
+ALLOW_MISMATCHED_TYPES = 
+ALLOW_NAMELESS_STRUCT = 1
+ALLOW_TYPEDEF_IN_PARENS = 1
+ALLOW_UNREFERENCED_LOCAL_FUNCTION = 1
+ALLOW_UNREF_FORMAL_PARAMS = 1
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Samuel\AppData\Roaming
+AS = ml
+ASSEMBLER = ml.exe -nologo
+ASSEMBLER_CMD_LINE =  -c -coff -Cx -Zm -I. -IC:\WINCE800\public\common\oak\inc -IC:\WINCE800\public\common\sdk\inc -IC:\WINCE800\public\common\sdk\inc\cestl -IC:\WINCE800\public\common\sdk\inc\crt -I.\Resource\0409 
+ATL_LIBS = C:\WINCE800\others\atl9\lib\x86\atls.lib C:\WINCE800\others\atl9\lib\x86\atlosapis.lib
+ATL_LIBSD = C:\WINCE800\others\atl9\lib\x86\atlsd.lib C:\WINCE800\others\atl9\lib\x86\atlosapis.lib
+A_DEBUG_INFO_FLAG = -Zi
+BAD_POINTER_TO_MEMBER_SYNTAX = 1
+BROKEN_PCH = 1
+BSP_ALLOWKITLSHAREDIRQ = 1
+BSP_AUTOLAUNCH_CORECON = 1
+BSP_DISPLAY_FLAT = 1
+BSP_KEYBD_8042 = 1
+BSP_NIC_AR6K_NWF = 1
+BSP_NIC_DC21X4 = 1
+BSP_NIC_E100BEX = 1
+BSP_NIC_NE2000_PCI = 1
+BSP_NIC_RTL8139 = 1
+BSP_NIC_RTLNWIFI = 1
+BSP_NOCFGPCIPCIBRIDGE = 1
+BSP_NOTOUCH = 1
+BSP_UDP_IPADDRESS = 1
+BSP_USB_EHCI = 1
+BSP_USB_OHCI = 1
+BSP_USB_UHCI = 1
+BSP_WAVEDEV_SB16 = 1
+BUILDMSG = 
+BUILDROOT = C:\wince800\3rdparty\autolaunch_v320_compact2013\
+BUILD_DEFAULT = -nmake -nologo
+BUILD_MULTIPROCESSOR = 0
+CBUG_FLAGS = -wd4007 -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -wd4603 -wd4627 -wd4100 -wd4201 -wd4115 -wd4214 -wd4049 -wd4505 -MT -U_MT
+CC = cl
+CCOMPILER = cl.exe -nologo 
+CDEBUG_DEFINES = -DNDEBUG=1
+CDEBUG_FLAGS = -Ox -Os -Oy- -GF -Zi -d2Zi+ -FdC:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\AutoLaunch.pdb
+CDECLDECORATION = _
+CDEFINES = -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=800 -D_WIN32_WCE=0x0800 -DWIN32 -DSTRICT -Dx86 -D_X86_ -D_MIDL_USE_GUIDDEF_ -DNDEBUG=1 -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252
+CEBASE = 1
+CFLAGS = -c -I. -IC:\WINCE800\public\common\oak\inc -IC:\WINCE800\public\common\sdk\inc -IC:\WINCE800\public\common\sdk\inc\cestl -IC:\WINCE800\public\common\sdk\inc\crt -I.\Resource\0409 -Ox -Os -Oy- -GF -Zi -d2Zi+ -FdC:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\AutoLaunch.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=800 -D_WIN32_WCE=0x0800 -DWIN32 -DSTRICT -Dx86 -D_X86_ -D_MIDL_USE_GUIDDEF_ -DNDEBUG=1 -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 /arch:IA32
+CHOCOLATEYINSTALL = C:\Chocolatey
+CINCLUDES = -I. -IC:\WINCE800\public\common\oak\inc -IC:\WINCE800\public\common\sdk\inc -IC:\WINCE800\public\common\sdk\inc\cestl -IC:\WINCE800\public\common\sdk\inc\crt -I.\Resource\0409
+CMD = C:\WINDOWS\system32\cmd.exe /c
+CODEPAGE = 1252
+CODE_ANALYSIS_CMD_LINE = 
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+COMPUTERNAME = D5421-E101
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+CONFORMING_FORSCOPE = 
+CONLY_FLAGS =  /Gy
+COPY = C:\WINDOWS\system32\cmd.exe /c copy
+COPYCMD = /y
+CPP = cl
+CRTINCLUDEPATH = C:\WINCE800\public\common\sdk\inc\cestl;C:\WINCE800\public\common\sdk\inc\crt
+CSC = "C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"
+CSC_DEBUG_CMD_LINE = /debug+ /debug:full
+CSC_OPTIMIZE_CMD_LINE = /optimize+
+CVTRES = cvtres -machine:x86 /WINDOWSCE
+CXX = cl
+CXXCOMPILER = cl.exe -nologo /YuStdAfx.h /FpC:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\StdAfx.pch 
+C_ARCH_CMD_LINE = /arch:IA32
+C_COMMAND_LINE_OPTIONS = -c -I. -IC:\WINCE800\public\common\oak\inc -IC:\WINCE800\public\common\sdk\inc -IC:\WINCE800\public\common\sdk\inc\cestl -IC:\WINCE800\public\common\sdk\inc\crt -I.\Resource\0409 -Ox -Os -Oy- -GF -Zi -d2Zi+ -FdC:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\AutoLaunch.pdb -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=800 -D_WIN32_WCE=0x0800 -DWIN32 -DSTRICT -Dx86 -D_X86_ -D_MIDL_USE_GUIDDEF_ -DNDEBUG=1 -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 /arch:IA32 -wd4007 -Zc:wchar_t- -Zc:forScope- -wd4867 -wd4430 -wd4603 -wd4627 -wd4100 -wd4201 -wd4115 -wd4214 -wd4049 -wd4505 -MT -U_MT /FC -W3 /GR-
+C_DEBUG_INFO_FLAG = -Zi -d2Zi+
+DEBUG_LINK_CMD_LINE = -debug -incremental:no -debugtype:cv,fixup,PDATA -novcfeature
+DEFAULT_LOCALE = en-US
+DEFFILE = AutoLaunch.def
+DEFFILEFLAG = -def:AutoLaunch.def
+DEPRECATE_BANNED_CRT = 
+DEPRECATE_UNSAFE_CRT = 
+DEP_COMPATIBLE = 1
+DLLBASE = 0x10000000
+DLLENTRYOPTION = -include:_DllMain -entry:_DllMainCRTStartup
+DLL_EXT = dll
+ECHO = C:\WINDOWS\system32\cmd.exe /c echo
+ENABLE_OPTIMIZER = 1
+ERRORFORBANNEDAPIS = 0
+ERRORFORBANNEDAPIS_CMD_LINE = 
+EXCEPTION_CPP = NONE
+EXCEPTION_EXTERN_C = THROW
+EXEBASE = 0x00010000
+EXEENTRY = mainWCRTStartup
+EXEENTRYOPTION = -entry:mainWCRTStartup
+EXPORTFILE = 
+EXTERNAL_SRCDIR = .
+FILE_VIEW_INCLUDES_FOLDER = StdAfx.h
+FILE_VIEW_PARAMETER_FOLDER = AutoLaunch.bib AutoLaunch.reg AutoLaunch.dat AutoLaunch.db ProjSysgen.bat
+FILE_VIEW_RESOURCE_FOLDER = 
+FILE_VIEW_ROOT_FOLDER = ReadMe.txt License.txt StdAfx.cpp prelink.bat postlink.bat
+FIXTS = C:\WINCE800\public\common\oak\bin\i386\fixts.exe
+FP_NO_HOST_CHECK = NO
+HEADERFILE = /FpC:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\StdAfx.pch
+HEADEROBJ = /FoC:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\StdAfx.obj
+HOMEDRIVE = C:
+HOMEPATH = \Users\Samuel
+HOSTCOMPILER = cl.exe
+IMGEBOOT = 1
+IMGFAKERIL = 1
+IMGFAKESPK = 1
+IMGNODEBUGGER = 1
+IMGNOKITL = 1
+IMGSOFTRTC = 1
+INCLUDEPATH = .;C:\WINCE800\public\common\oak\inc;C:\WINCE800\public\common\sdk\inc;C:\WINCE800\public\common\sdk\inc\cestl;C:\WINCE800\public\common\sdk\inc\crt
+INCLUDES = C:\WINCE800\public\common\oak\inc
+LDEFINES = -MERGE:.rdata=.text -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096
+LDEFSTACK = /STACK:65536,4096
+LIBRARIAN = link.exe -lib 
+LINKER = link.exe /LARGEADDRESSAWARE /filealign:0x1000
+LINKER_DEBUG =  /opt:ref,icf
+LINKER_SUBSYSTEM = /subsystem:windowsce,8.00
+LOCALAPPDATA = C:\Users\Samuel\AppData\Local
+LOCALE = 0409
+LOGFILEBASE = C:\WINCE800\build
+LOGFILEDIR = C:\WINCE800\
+LOGONSERVER = \\MicrosoftAccount
+MACHINEOPTION = -machine:x86
+MAKE = C:\WINCE800\public\common\oak\Bin\i386\nmake.exe
+MAKECMD = C:\WINCE800\public\common\oak\Bin\i386\nmake.exe 
+MAKEDIR = C:\wince800\3rdparty\autolaunch_v320_compact2013
+MAKEFLAGS =  
+MANAGED_ADDMODULES_DEFAULT_DIR = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+MANAGED_CS = 1
+MANAGED_DLL_TARGET_DIRECTORY = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+MANAGED_EXE_TARGET_DIRECTORY = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+MANAGED_FRAMEWORK_DIR = C:\WINCE800\public\netcf\sdk\target\managed\retail
+MANAGED_INTERMEDIATE_PDB = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\AutoLaunch.pdb
+MANAGED_INTERMEDIATE_TARGET = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\AutoLaunch.
+MANAGED_MODULE_TARGET_DIRECTORY = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+MANAGED_REFERENCES_DEFAULT_DIR = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+MANAGED_TARGET_PDB = \AutoLaunch.pdb
+MANAGED_WINEXE_TARGET_DIRECTORY = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+MC_SOURCEDIR = .
+MESSAGE_COMPILER = mc
+MIDLCOMPILER = midl.exe -nologo /env win32
+MIDL_FLAGS =  -no_stamp -sal
+MIDL_OPTIMIZATION = -Oicf
+MKDIR = C:\WINDOWS\system32\cmd.exe /c mkdir
+MKTYPLIBFLAGS = /win32 /mktyplib203 /no_stamp
+MSBUILD = C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe
+MSBUILDLOADMICROSOFTTARGETSREADONLY = true
+MSBUILD_FLAGS =  /consoleloggerparameters:NoSummary
+NOINCLUDEOBJMAC = 1
+NO_WCHAR_T = 1
+NUMBER_OF_PROCESSORS = 4
+O = obj\x86\retail
+OBJ_PATH = C:\wince800\3rdparty\autolaunch_v320_compact2013
+OPTIMIZE_FAVOR = SPACE
+OPTIMIZE_FAVOR_FLAG = -Os
+OS = Windows_NT
+PASS0_HEADERDIR = .
+PASS0_SOURCEDIR = .
+PATH = C:\WINCE800\sdk\bin\i386\x86;C:\WINCE800\sdk\bin\i386;C:\WINCE800\sdk\bin\i386\x86;C:\WINCE800\public\common\oak\Bin\i386;C:\WINCE800\private\bin\i386;C:\WINCE800\private\bat;C:\WINCE800\public\common\oak\misc;C:\WINCE800\developr\Samuel;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\Windows Azure\CLI\wbin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Chocolatey\bin;C:\Program Files (x86)\Git\cmd;;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft Platform Builder\8.00\cepb\ideVS
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PBCONFIG = Generic CEPC x86 Release
+PBCONFIGTAG = F4472ECB
+PBSUBPROJECT = 1
+PBWORKSPACE = C:\WINCE800\OSDESI~1\MyCEPC\MyCEPC\MYCEPC~1.PBX
+PBWORKSPACEROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC
+PKGDEFAPPLICATIONCONFIGFILE = C:\Users\Samuel\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config
+POSTLINK_PASS_CMD = postlink.bat
+PRECOMPILED_CPP_ONLY_CMD_LINE = /YuStdAfx.h /FpC:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\StdAfx.pch
+PRECOMPILED_CXX = 1
+PRECOMPILED_C_ONLY_CMD_LINE = 
+PRECOMPILED_GENERATE_CMD_LINE = /Tp
+PRECOMPILED_HEADEROBJNAME = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\StdAfx.obj
+PRECOMPILED_INCLUDE = StdAfx.h
+PRECOMPILED_OBJ = StdAfx.obj
+PRECOMPILED_PCH = StdAfx.pch
+PRECOMPILED_TARGET = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\StdAfx.pch
+PRELINK_PASS_CMD = prelink.bat
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+PROGRAMDATA = C:\ProgramData
+PROGRAMFILES = C:\Program Files (x86)
+PROGRAMW6432 = C:\Program Files
+PROMPT = 
+PSMODULEPATH = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\;C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement
+PUBLIC = C:\Users\Public
+RC = rc
+RCFLAGS = 
+RCOMPILER = rc.exe -r -I. -IC:\WINCE800\public\common\oak\inc -IC:\WINCE800\public\common\sdk\inc -IC:\WINCE800\public\common\sdk\inc\cestl -IC:\WINCE800\public\common\sdk\inc\crt -I.\Resource\0409 -DUNDER_CE=800 -D_WIN32_WCE=0x0800 -DINTERNATIONAL -l 409 -c 1252
+RDEFINES =  -DUNDER_CE=800 -D_WIN32_WCE=0x0800 -DINTERNATIONAL -l 409 -c 1252
+RELEASETYPE = LOCAL
+RENUMBERICONIDS_CMD = C:\WINCE800\public\common\oak\bin\i386\RenumberIconIds.exe
+RES2RES = C:\WINCE800\public\common\oak\bin\i386\res2res.exe
+RESGEN = resgen.exe
+RESX_RESOURCE_TARGET_PATH = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+RTTI = NO
+RTTI_CMD_LINE = /GR-
+SAFESEH = 1
+SCRIPTNAME = BldDemo1.bat
+SCRIPTPARAMS =  -q
+SECURITY_LINK_CMD_LINE = /safeseh 
+SESSIONNAME = Console
+SG_OUTPUT_OAKLIB = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak\lib\x86\retail
+SG_OUTPUT_OAKTGT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak\target\x86\retail
+SG_OUTPUT_OAKTGTMGD = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak\target\managed
+SG_OUTPUT_OAK_MANAGED = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak\target\managed\retail
+SG_OUTPUT_ROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen
+SG_OUTPUT_SDKLIB = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\sdk\lib\x86\retail
+SG_OUTPUT_SDKTGTMGD = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\sdk\target\managed
+SG_OUTPUT_SDK_MANAGED = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\sdk\target\managed\retail
+SIGNBIN = C:\WINCE800\public\common\oak\bin\i386\signbin.cmd
+SN = sn.exe
+SOURCELIBS = 
+SOURCELIBS_DELIMITED = **
+SOURCELIBS_NOBATCH =  
+SOURCELIBS_NOBATCH_DELIMITED = **
+SOURCES = AutoLaunch.cpp
+SUPPORT_DEFAULT_INT = 1
+SYSGEN_APPDEBUG = 1
+SYSGEN_ATL = 1
+SYSGEN_AUTOLAUNCH = 1
+SYSGEN_COMMCTRL = 1
+SYSGEN_COMMDLG = 1
+SYSGEN_CONSOLE = 1
+SYSGEN_CORECON_V320_COMPACT2013 = 1
+SYSGEN_DCOM = 1
+SYSGEN_FIREWALL = 1
+SYSGEN_FTPD = 1
+SYSGEN_HTTPD = 1
+SYSGEN_MFC = 1
+SYSGEN_MINSHELL = 1
+SYSGEN_MINWMGR = 1
+SYSGEN_NETCF_WINFORMS = 1
+SYSGEN_NETUTILS = 1
+SYSGEN_NETWORKING = 1
+SYSGEN_OLE = 1
+SYSGEN_REMOTETOOLS = 1
+SYSGEN_TELNETD = 1
+SYSGEN_WCELOAD = 1
+SYSGEN_WININET = 1
+SYSTEMDRIVE = C:
+SYSTEMROOT = C:\WINDOWS
+S_ATL_LIBS = C:\WINCE800\others\atl9\lib\x86\atls.lib C:\WINCE800\others\atl9\lib\x86\atlosapis.lib
+S_ATL_LIBSD = C:\WINCE800\others\atl9\lib\x86\atlsd.lib C:\WINCE800\others\atl9\lib\x86\atlosapis.lib
+TARGETDEFNAME = AutoLaunch
+TARGETEXEFILES = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\AutoLaunch.exe
+TARGETLIBS = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\sdk\lib\x86\retail\coredll.lib C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\sdk\lib\x86\retail\ws2.lib C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak\lib\x86\retail\ccrt0.lib C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak\lib\x86\retail\msvcrt.lib
+TARGETNAME = AutoLaunch
+TARGETOBJFILES =  C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\StdAfx.obj 
+TARGETTHREADMODEL = ST
+TARGETTYPE = PROGRAM
+TARGET_PDB_NAME = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail\AutoLaunch.pdb
+TEMP = C:\Temp\bld_92282
+TGTCPUDEFINES = -Dx86 -D_X86_
+TGTCPUISANAME = x86
+TMP = C:\Temp\bld_92282
+TYPE = C:\WINDOWS\system32\cmd.exe /c type
+USERDOMAIN = D5421-E101
+USERDOMAIN_ROAMINGPROFILE = D5421-E101
+USERNAME = Samuel
+USERPROFILE = C:\Users\Samuel
+USING_PB_WORKSPACE_ENVIRONMENT = 1
+VISUALSTUDIODIR = C:\Users\Samuel\Documents\Visual Studio 2013
+VISUALSTUDIOEDITION = Microsoft Visual Studio Ultimate 2013
+VISUALSTUDIOVERSION = 12.0
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VS120COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\
+VSLANG = 1033
+VSSDK110INSTALL = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VSSDK\
+WARNLEVEL_CMD_LINE = -W3
+WECSDK = Compact 2013 SDK for eBox-3350MX
+WINCEDEBUG = retail
+WINCEDEBUG_COMPILE = retail
+WINCEMAP = 1
+WINCEREL = 1
+WINCETREE = 
+WINCEVSCRT_DEBUG_SUFFIX = 
+WINDIR = C:\WINDOWS
+WPP_TARGETS = 
+XCOPY = xcopy /exclude:C:\WINCE800\public\common\oak\misc\exclude.txt
+_BD_PROJECTOAKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\oak
+_BLDDEMO_CLEAN = 1
+_BLDDEMO_CLEANPLAT = 1
+_BLDDEMO_EXITCODE = 0
+_BUILDERR = : ERROR:
+_BUILDMSG = : Message:
+_BUILDOUTPUTFILTER_EXISTS = 1
+_BUILDOUTPUTFILTER_RUNNING = 1
+_BUILDWRN = : Warning:
+_BUILD_A_FLAG = -A
+_CDTMP = -D_CRT_SECURE_NO_DEPRECATE -D_USE_32BIT_TIME_T -DUNICODE -D_UNICODE -DUNDER_CE=800 -D_WIN32_WCE=0x0800 -DWIN32 -DSTRICT -Dx86 -D_X86_ -D_MIDL_USE_GUIDDEF_ -DNDEBUG=1 -DINTERNATIONAL -DINTLMSG_CODEPAGE=1252 DUMMY
+_CEBUILDPERF_LOGGER = C:\WINCE800\private\bin\i386\CeBuildPerfLogger.exe
+_CLEAN_PLAT_ALL = 1
+_CLEAN_PLAT_COMMON_ALL = 1
+_COMMONDDKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\ddk
+_COMMONOAKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak
+_COMMONPUBROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen
+_COMMONSDKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\sdk
+_CPUDEPPATH = x86\retail
+_CPUINDPATH = x86\retail
+_DEPTREES = winceos dcom wgi html netcf servers cellcore ossvcs shell directx ostest viewers CEBASE
+_DOTNET20ROOT = C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+_DOTNET20SP2INSTALLED = 1
+_DOTNET30ROOT = C:\WINDOWS\Microsoft.NET\Framework\v3.0
+_DOTNET30SP2INSTALLED = 1
+_DOTNET35ROOT = C:\Windows\Microsoft.NET\Framework\v3.5
+_DOTNET35SP1INSTALLED = 1
+_DOTNET40CLIENTINSTALLED = 1
+_DOTNET40FULLINSTALLED = 1
+_DOTNET40ROOT = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+_DOTNET45INSTALLED = 1
+_DOTNETSDKROOT = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+_FLATRELEASEDIR = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\RelDir\CEPC_x86_Release
+_HOSTCPUTYPE = i386
+_ISVINCPATH = C:\WINCE800\public\common\sdk\inc;
+_MAJORVERSION = 8
+_MAKEENVROOT = C:\WINCE800\public\common\oak\misc
+_MANAGED_DIR = retail
+_MANAGED_FRAMEWORK_DIR = C:\WINCE800\public\netcf\sdk\target\managed\retail
+_MANAGED_FRAMEWORK_DIR_CE = C:\WINCE800\public\netcf\sdk\target\managed\retail
+_MINORVERSION = 00
+_NMAKE_VER = 11.00.50727.169
+_OBJDIR = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+_OEMINCPATH = C:\WINCE800\public\common\oak\inc;C:\WINCE800\public\common\sdk\inc
+_OSDESIGNDDKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\ddk
+_OSDESIGNOAKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\oak
+_OSDESIGNROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC
+_OSDESIGNSDKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\sdk
+_PB_INSTALL_ROOT = C:\PROGRA~2\MIFAB2~1\8.00
+_PLATFORMDRIVE = C:
+_PLATFORMROOT = C:\WINCE800\platform
+_PREWINCEPATH = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft SDKs\Windows Azure\CLI\wbin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI\wbin;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\Chocolatey\bin;C:\Program Files (x86)\Git\cmd;
+_PRIVATEDRIVE = C:
+_PRIVATEROOT = C:\WINCE800\private
+_PROJECTDDKROOT = C:\WINCE800\public\CEBASE\ddk
+_PROJECTOAKROOT = C:\WINCE800\public\CEBASE\oak
+_PROJECTROOT = C:\WINCE800\public\CEBASE
+_PROJECTSDKROOT = C:\WINCE800\public\CEBASE\sdk
+_PROJPUBLICROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\WINCE800\PUBLIC
+_PUBLICDRIVE = C:
+_PUBLICROOT = C:\WINCE800\public
+_RELEASEDIR = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+_RELEASELIBDIR = C:\wince800\3rdparty\autolaunch_v320_compact2013\obj\x86\retail
+_SDKDRIVE = C:
+_SDKROOT = C:\WINCE800\sdk
+_SRCDIR = x86
+_SYSGENDDKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\ddk
+_SYSGENOAKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\oak
+_SYSGENSDKROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen\sdk
+_TARGETPLATROOT = C:\WINCE800\platform\CEPC
+_TGTCPU = x86
+_TGTCPUFAMILY = x86
+_TGTOS = CE
+_TGTPLAT = CEPC
+_TGTPROJ = cebase
+_TLTMP = 
+_TOOLSSDKDRIVE = C:
+_TOOLSSDKROOT = C:\WINCE800\tools\public\ext
+_WINCECALLED = 1
+_WINCEDRIVE = C:
+_WINCEOSVER = 800
+_WINCEROOT = C:\WINCE800
+__CPUDIR = x86\retail
+__PROJROOT = C:\WINCE800\OSDesigns\MyCEPC\MyCEPC\Wince800\CEPC_x86_Retail\cesysgen
