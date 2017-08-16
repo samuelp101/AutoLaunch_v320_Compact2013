@@ -3,13 +3,18 @@ AutoLaunch component for Windows Embedded Compact 2013
 	Catalog Item Name:	AutoLaunch_v320_Compact2013
 	OS Version:		Windows Embedded Compact 2013
 	Supported processor:	All
-	Last updated:		January 21, 2015
+	Last updated:		August 15, 2017
 -----------------------------------------------------------------
 *****************************************************************
 *  AutoLaunch_v320_Compact2013
-*  http://AutoLaunch4CE.Codeplex.net 
+*  http://github.com/samuelp101
 *****************************************************************
 
+  Date:  August 15, 2017
+  Note:  Copy project files from Codeplex to Github
+
+
+-----------------------------------------------------------------
 The AutoLaunch component, when included to the OS image, can be configured to launch 
 one or more application when the Windows Embedded Compact 2013 OS starts.
 
